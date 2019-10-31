@@ -13,17 +13,17 @@ If either of these properties does not hold, check_sudoku must return None. If t
 
 This diagram (which depicts a valid Sudoku grid) illustrates how the grid is divided into sub-grids:
 
-5 3 4 | 6 7 8 | 9 1 2
-6 7 2 | 1 9 5 | 3 4 8
-1 9 8 | 3 4 2 | 5 6 7 
----------------------
-8 5 9 | 7 6 1 | 4 2 3
-4 2 6 | 8 5 3 | 7 9 1
-7 1 3 | 9 2 4 | 8 5 6
----------------------
-9 6 1 | 5 3 7 | 0 0 0
-2 8 7 | 4 1 9 | 0 0 0
-3 4 5 | 2 8 6 | 0 0 0
+    5 3 4 | 6 7 8 | 9 1 2
+    6 7 2 | 1 9 5 | 3 4 8
+    1 9 8 | 3 4 2 | 5 6 7 
+    ---------------------
+    8 5 9 | 7 6 1 | 4 2 3
+    4 2 6 | 8 5 3 | 7 9 1
+    7 1 3 | 9 2 4 | 8 5 6
+    ---------------------
+    9 6 1 | 5 3 7 | 0 0 0
+    2 8 7 | 4 1 9 | 0 0 0
+    3 4 5 | 2 8 6 | 0 0 0
 
 Please keep in mind that a valid grid (i.e., one for which your function returns True) may contain 0 multiple times in a row, column, or sub-grid. Here we are using 0 to represent an element of the Sudoku grid that the player has not yet filled in.
 
